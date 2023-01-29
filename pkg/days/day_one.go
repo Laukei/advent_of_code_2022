@@ -1,4 +1,4 @@
-package main
+package days
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
   "github.com/laukei/advent_of_code_2022/pkg/utils"
 )
 
-func main() {
+func DayOne() {
   input := string(utils.ReadFile("day_one_input.txt"))
   s := strings.Split(input, "\n")
   totals := utils.Totalize(s)
