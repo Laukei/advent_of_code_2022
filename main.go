@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-  days.DayOne("day_one_input.txt")
-  days.DayTwo("day_two_input.txt")
+  days.DayOne("assets/day_one_input.txt")
+  days.DayTwo("assets/day_two_input.txt")
 }
