@@ -6,8 +6,8 @@ import (
   "github.com/laukei/advent_of_code_2022/pkg/utils"
 )
 
-func DayOne() {
-  input := string(utils.ReadFile("day_one_input.txt"))
+func DayOne(fn string) {
+  input := string(utils.ReadFile(fn))
   s := strings.Split(input, "\n")
   totals := utils.Totalize(s)
   max := utils.Max(totals)

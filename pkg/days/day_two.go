@@ -5,8 +5,8 @@ import (
   "github.com/laukei/advent_of_code_2022/pkg/utils"
 )
 
-func DayTwo() {
-  f := utils.ReadFile("day_two_data.txt")
+func DayTwo(fn string) {
+  f := utils.ReadFile(fn)
 
   fmt.Println(f[0])
 }
